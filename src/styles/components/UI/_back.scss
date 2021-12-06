@@ -1,0 +1,23 @@
+@use "../../base/variables" as *;
+
+.container__back__button {
+  padding: 3rem 0;
+  background-color: var(--bg);
+}
+
+.back__button {
+  height: 40px;
+  width: 135px;
+  background-color: var(--element);
+  color: var(--text);
+  border: none;
+  border-radius: $border-radius;
+  word-spacing: 0.8rem;
+  font-size: 1rem;
+  cursor: pointer;
+  box-shadow: $box-shadow;
+
+  &:focus {
+    outline: 1px solid var(--text);
+  }
+}

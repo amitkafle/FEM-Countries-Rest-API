@@ -1,0 +1,38 @@
+@use "../../base/variables" as *;
+
+.header {
+  width: 100%;
+  position: sticky;
+  z-index: 2;
+  top: -0.1px;
+  background-color: var(--element);
+  padding: 1rem 0;
+  box-shadow: $box-shadow;
+
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+  }
+  .theme {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.9rem;
+    font-weight: 600;
+    cursor: pointer;
+    color: var(--text);
+
+    &__icon {
+      height: 20px;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .header {
+    &__title {
+      font-size: 1rem;
+    }
+  }
+}

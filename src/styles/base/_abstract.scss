@@ -1,0 +1,21 @@
+@use "colors" as *;
+
+.dark {
+  @each $theme, $items in $colors {
+    @if $theme == dark {
+      @each $item, $value in $items {
+        --#{$item}: #{$value};
+      }
+    }
+  }
+}
+
+.light {
+  @each $theme, $items in $colors {
+    @if $theme == light {
+      @each $item, $value in $items {
+        --#{$item}: #{$value};
+      }
+    }
+  }
+}
