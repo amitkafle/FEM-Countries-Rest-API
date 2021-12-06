@@ -116,7 +116,7 @@ const CountryInfo = () => {
                                 <div className='borders__grid'>
                                     {borders.map(item => {
                                         return (
-                                            <Link to={`/country/${item}`} key={uid(16)}>
+                                            <Link to={`FEM-Countries-Rest-API/country/${item}`} key={uid(16)}>
                                                 <div className='borders__country'>
                                                     {item}
                                                 </div>

@@ -9,13 +9,10 @@ function App() {
       <Router>
         <Header />
         <Switch>
-          <Route exact path='/'>
+          <Route exact path='/FEM-Countries-Rest-API'>
             <Home />
           </Route>
-          <Route exact path='/home'>
-            <Home />
-          </Route>
-          <Route path='/country/:name'>
+          <Route path='FEM-Countries-Rest-API/country/:name'>
             <Country />
           </Route>
         </Switch>

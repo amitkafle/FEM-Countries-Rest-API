@@ -8,7 +8,7 @@ const Header = () => {
     return (
         <header className='header'>
             <Container className={'header__container'}>
-                <Link to='/home'>
+                <Link to='/FEM-Countries-Rest-API'>
                     <h1 className='header__title'>Where in the world?</h1>
                 </Link>
                 <Theme />
