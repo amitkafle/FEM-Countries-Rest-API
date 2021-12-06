@@ -2,7 +2,7 @@ import { Link } from "react-router-dom"
 const CountryItem = ({ name, flags, region, capital, population }) => {
 
     return (
-        <Link to={`/country/${name.common}`}>
+        <Link to={`/FEM-Countries-Rest-API/country/${name.common}`}>
             <section className='country__item'>
                 <div className='country__flag_wrapper'>
                     <img className='country__flag_img' src={flags.svg} alt={`${name.common} flag`} loading='lazy' />
