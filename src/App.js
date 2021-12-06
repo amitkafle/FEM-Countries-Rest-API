@@ -12,7 +12,7 @@ function App() {
           <Route exact path='/FEM-Countries-Rest-API'>
             <Home />
           </Route>
-          <Route path='FEM-Countries-Rest-API/country/:name'>
+          <Route path='/FEM-Countries-Rest-API/country/:name'>
             <Country />
           </Route>
         </Switch>
