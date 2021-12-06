@@ -29,10 +29,10 @@ Users should be able to:
 
 ### Screenshot
 - Desktop
-![Desktop](/screenshots/desktop.png)  
+![Desktop](/src/assets/screenshots/desktop.png)  
   
 - Mobile<br>
-![Mobile](/screenshots/mobile.png)
+![Mobile](/src/assets/screenshots/mobile.png)
 
 ### Links
 - Solution URL: [Frontend Mentor]()
