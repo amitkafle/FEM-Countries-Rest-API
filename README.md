@@ -35,8 +35,8 @@ Users should be able to:
 ![Mobile](/src/assets/screenshots/mobile.png)
 
 ### Links
-- Solution URL: [Frontend Mentor]()
-- Live Site URL: [Github Pages](https://amitkafle.github.io/fem-countries-rest-api/)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/rest-countries-api-with-color-theme-switcher-using-react-wV6DQ0flg)
+- Live Site URL: [Github Pages](https://amitkafle.github.io/FEM-Countries-Rest-API/)
 
 ## My process
 ### Built with
